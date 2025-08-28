@@ -55,9 +55,13 @@ public class CopyOfPicture
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
-            sun.makeVisible();
+            sun.makeVisible();  
             drawn = true;
         }
+    } public void sunset() {
+          sun.slowMoveVertical(300);
+          sun.moveVertical(-300);// reset back to original position
+          drawn = true;
     }
 
     /**
@@ -82,3 +86,4 @@ public class CopyOfPicture
         sun.changeColor("yellow");
     }
 }
+
