@@ -121,6 +121,8 @@ public class Person
             xPosition += delta;
             draw();
         }
+    } public void walk() {
+        slowMoveHorizontal(-230);
     }
 
     /**
