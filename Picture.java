@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Circle sun2;
+    private Person person;
     private boolean drawn;
 
     /**

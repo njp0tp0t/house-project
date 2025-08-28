@@ -15,6 +15,7 @@ public class CopyOfPicture
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Person person;
     private boolean drawn;
 
     /**
@@ -26,6 +27,7 @@ public class CopyOfPicture
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
+        person = new Person();
         drawn = false;
     }
 
@@ -55,7 +57,11 @@ public class CopyOfPicture
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
-            sun.makeVisible();  
+            sun.makeVisible();
+            
+            person.changeColor("black");
+            person.makeVisible();
+            
             drawn = true;
         }
     } public void sunset() {
