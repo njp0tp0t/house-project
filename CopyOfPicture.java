@@ -64,11 +64,13 @@ public class CopyOfPicture
             
             drawn = true;
         }
-    } public void sunset() {
+    } public void SunsetAndWalk() {
           sun.slowMoveVertical(300);
-          sun.moveVertical(-300);// reset back to original position
+          person.slowMoveHorizontal(-230);// then person walks 230 steps 
           drawn = true;
+    
     }
+    
 
     /**
      * Change this picture to black/white display
