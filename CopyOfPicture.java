@@ -53,7 +53,7 @@ public class CopyOfPicture
             roof.moveVertical(-60);
             roof.makeVisible();
             
-            sun.changeColor("blue");
+            sun.changeColor("yellow");
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
